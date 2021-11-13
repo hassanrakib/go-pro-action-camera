@@ -44,7 +44,6 @@ const ManageAllOrders = () => {
                         }
                     });
                     const productWithQuantity = { ...product, quantity, ...orderStatus };
-                    console.log(productWithQuantity);
                     productsWithQuantity.push(productWithQuantity);
                 });
                 setProducts(productsWithQuantity);

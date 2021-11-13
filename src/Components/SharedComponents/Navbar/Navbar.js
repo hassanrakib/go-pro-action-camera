@@ -12,9 +12,7 @@ const Navbar = () => {
     }
     const navigation = [
         { name: 'Dashboard', href: '/dashboard', current: false },
-        { name: 'Team', href: '#', current: false },
-        { name: 'Projects', href: '#', current: false },
-        { name: 'Calendar', href: '#', current: false },
+        { name: 'Explore', href: '/explore', current: false },
     ]
 
     const { user, signOutUser } = useAuth();
