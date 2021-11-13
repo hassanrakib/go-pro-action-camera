@@ -1,0 +1,14 @@
+#top-banner {
+  height: calc(100vh - 4rem);
+}
+video {
+  z-index: -1000;
+}
+
+#overlay-back {
+  z-index: -999;
+}
+
+#text-explore {
+  letter-spacing: 3vw;
+}
